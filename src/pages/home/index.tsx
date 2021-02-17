@@ -27,7 +27,7 @@ const Home: React.FC = () => {
   return(
       <>
         <Card>
-            <h6>Gama Bank é um projeto de nossos alunos.</h6>
+            <h1>Gama Bank é um projeto de nossos alunos.</h1>
             <h4>Já tem conta?</h4>
         </Card>
 
@@ -56,6 +56,8 @@ const Home: React.FC = () => {
                 type="text" 
                 placeholder="Confirme sua senha">
             </input>
+
+            <button>Cadastrar</button>
         </Form>
 
       </>
