@@ -54,7 +54,9 @@ const Home: React.FC = () => {
                 placeholder="Confirme sua senha">
             </input>
 
-            <button>Cadastrar</button>
+            <Link to={"/login"}>
+                <button>Cadastrar</button>
+            </Link>
         </Form>
 
       </Content>
