@@ -12,6 +12,15 @@ export const Form = styled.form`
 
 
 export const Card = styled.section`
+    width: 45%;
+
+
+`
+
+export const Content = styled.section`
+    display: flex;
+    width: 100%;
+    justify-content: space-around
 
 `
 

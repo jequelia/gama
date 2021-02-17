@@ -1,12 +1,9 @@
 import React, {useState, FormEvent, useEffect} from 'react';
 import api from '../../services/api'
 import {Link} from 'react-router-dom'
-import {Form, Card} from './style'
-
-// import { Container } from './style';
+import {Form, Card, Content} from './style'
 
 interface IUser {
-
     cpf: string,
     login: string,
     nome: string,
@@ -25,7 +22,7 @@ const Home: React.FC = () => {
 
 
   return(
-      <>
+      <Content>
         <Card>
             <h1>Gama Bank é um projeto de nossos alunos.</h1>
             <h4>Já tem conta?</h4>
@@ -60,7 +57,7 @@ const Home: React.FC = () => {
             <button>Cadastrar</button>
         </Form>
 
-      </>
+      </Content>
   );
 }
 
