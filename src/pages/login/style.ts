@@ -7,7 +7,7 @@ export const Form = styled.form`
 `
 
 
-export const Card = styled.section`
+export const Content = styled.section`
 
 `
 
